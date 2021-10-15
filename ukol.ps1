@@ -10,4 +10,4 @@ $object.data | foreach{
 }
 #$object.data.psobject.Properties - vypise properties objektu
 
-# test1: 3 = 49
+ test1: 3 = 49
