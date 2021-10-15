@@ -49,4 +49,4 @@ $certs | foreach {$_.Thumbprint + " " + $_.Verify()}
 
 $date = Get-Date
 
-$date.ToString("yyyy-MM-dD")
+$date.ToString("yyyy-MM-dd")
