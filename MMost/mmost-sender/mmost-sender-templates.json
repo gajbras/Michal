@@ -1,0 +1,88 @@
+{
+	"templates": {
+		"PLAIN": {
+			"channel": "CHANNEL_MAGIC_VALUE",
+			"templateComment": "Easiest message without attachments.",
+			"username": "USERNAME_MAGIC_VALUE",
+			"text": "TEXT_MAGIC_VALUE"
+		},
+		"NEUTRAL": {
+			"channel": "CHANNEL_MAGIC_VALUE",
+			"templateComment": "Message formated as attachment, but no other colors, bells and whistles.",
+			"username": "USERNAME_MAGIC_VALUE",
+			"attachments": [
+				{
+					"color": "#202020",
+					"title": "TITLE_MAGIC_VALUE",
+					"title_link": "https://confluence.shared.int.tds.tieto.com/x/an3LDg",
+					"text": "TEXT_MAGIC_VALUE"
+				}
+			]
+		},
+		"RED": {
+			"channel": "CHANNEL_MAGIC_VALUE",
+			"templateComment": "Message formated as attachment, with red strip.",
+			"username": "USERNAME_MAGIC_VALUE",
+			"attachments": [
+				{
+					"color": "#FF0000",
+					"title": "TITLE_MAGIC_VALUE",
+					"title_link": "https://confluence.shared.int.tds.tieto.com/x/an3LDg",
+					"text": "TEXT_MAGIC_VALUE"
+				}
+			]
+		},
+		"YELLOW": {
+			"channel": "CHANNEL_MAGIC_VALUE",
+			"templateComment": "Message formated as attachment, with yellow strip.",
+			"username": "USERNAME_MAGIC_VALUE",
+			"attachments": [
+				{
+					"color": "#FFFF00",
+					"title": "TITLE_MAGIC_VALUE",
+					"title_link": "https://confluence.shared.int.tds.tieto.com/x/an3LDg",
+					"text": "TEXT_MAGIC_VALUE"
+				}
+			]
+		},
+		"GREEN": {
+			"channel": "CHANNEL_MAGIC_VALUE",
+			"templateComment": "Message formated as attachment, with green strip.",
+			"username": "USERNAME_MAGIC_VALUE",
+			"attachments": [
+				{
+					"color": "#00FF00",
+					"title": "TITLE_MAGIC_VALUE",
+					"title_link": "https://confluence.shared.int.tds.tieto.com/x/an3LDg",
+					"text": "TEXT_MAGIC_VALUE"
+				}
+			]
+		},
+		"PROCESINGSPEED": {
+			"channel": "CHANNEL_MAGIC_VALUE",
+			"templateComment": "Processing Speed ma extra ramecek a odkaz na clanek v Confluence.",
+			"username": "USERNAME_MAGIC_VALUE",
+			"attachments": [
+				{
+					"title": "Processing Speed",
+					"title_link": "https://confluence.shared.int.tds.tieto.com/x/an3LDg",
+					"text": "TEXT_MAGIC_VALUE",
+					"color": "#303030"
+				}
+			]
+		},
+		"YELLOWWIGUM": {
+			"channel": "CHANNEL_MAGIC_VALUE",
+			"templateComment": "Tato sablona se pouziva pro varovani.",
+			"username": "USERNAME_MAGIC_VALUE",
+			"attachments": [
+				{
+					"title": "Ahoj",
+					"title_link": "https://SIEM-confluence/article-with-description",
+					"text": "TEXT_MAGIC_VALUE",
+					"color": "#FFFF00"
+				}
+			]
+		}
+	}
+}
